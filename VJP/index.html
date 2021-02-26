@@ -1,0 +1,184 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Markus Laine" content="width=device-width, initial scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <script src="script.js" defer></script>
+
+    </head>
+
+    
+
+    <body>
+
+
+        <nav class="navbar">
+            <div class= "navbar-left">
+                <a href="#"><img src="logo.png" alt="logo" class="logo"></a>
+            </div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-right">
+            <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">My projects</a></li>
+            <li><a href="#contact">Contact me</a></li>          
+            </ul>
+            </div>
+        </nav>
+          
+
+        <header>
+
+            <div id= "left-box" class="flex-container">
+
+            <h3 > Hi there!</h3>
+            <h1>I'm Markus Laine.</h1>
+
+            <h2 id="intro">A student and Future Talent, Interested in creating user friendly Tech and Design.</h2>
+            </div>
+            
+            <div id= "right-box" class="flex-container"> <img src="graphic.png" alt="Profile picture" id="graphic"> </div>     
+    
+        </header>
+    
+
+        <h2>About me</h2>
+
+        <section id="about" class="flex-container">
+
+            <p>I am a first-year student studying Information Networks at Aalto University. Creative problem-solving is 
+                my thing. I want to create something that has an impact on people's lives, whether it's code, design or services.
+            </p>
+
+            <p>I am a social and active person, and I enjoy challenging myself. On my own time I love to sing, play the piano and make music as well as excercise out in the open. 
+            </p>
+
+            <p>Currently I'm leaning about Databases and Web Design & Developent. </p>
+            <p>I'm looking for new learning opportunities and excited to put my skills into action in Web Development and Design, Software
+                Development and UX/UI Design. 
+            </p>
+
+        </section>
+
+
+        <h2>My projects</h2>
+
+        <section id="projects" class="flex-container">
+
+            <div class="projects-header">
+                <h3>Here are some projects that I've been working on. Take a look! </h3>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project">
+                    <img class="project-frontpic" src="tg-bot.png" alt="Telegram Bot">
+                    <div class="wide-container">
+                        <h3>Telegram Bot</h3>
+                    </div>
+                    <div class="narrow-container">
+                        <button class="modal-open" data-modal = "modal1">Read more</button>           
+                    </div>
+                    <div class="modal" id="modal1">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="info-container"><h2>Telegram Bot</h2></div>
+                                <div class="logo-container"><button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="tg-bot.png" alt="Telegram Bot picture" class="project-pic">
+                                <p>I made a Telegram bot that you can use to create events and to collect registrations for an event. 
+                                    This was one of my first coding projects and I learned about getting data from the user and handling the data. 
+                                    The project was coded with Scala.
+
+                                </p>
+                            </div>
+                            <div class="modal-footer"><button class="link modal-close">Close</button></div>
+                        </div>
+                    </div>          
+                </div>
+
+                <div class="project">
+                    <img class="project-frontpic" src="portfolio.png" alt="Portfolio picture">
+                    <div class="wide-container">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="narrow-container">
+                        <button class="modal-open" data-modal = "modal2">Read more</button>
+                    </div>
+                    <div class="modal" id=modal2>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="info-container"><h2>Portfolio Website</h2></div>
+                                <div class="logo-container"><button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="portfolio.png" alt="Portfolio Picture" class="project-pic">
+                                <p>This portfolio page is the first web page I have made. Making this page was challenging but also very rewarding,
+                                    And I learned a lot about Web Design and HTML/CSS, and also a bit of JavaScript. I will keep improving this page
+                                    as I learn to use new Web Development tools. 
+                                </p>
+                            </div>
+                            <div class="modal-footer"><button class="link modal-close">Close</button>
+                            </div>
+                        </div>
+                    </div>               
+                </div>               
+            </div>
+        </section>
+
+
+        <h2>Contact me</h2>
+
+        <section id="contact">
+
+            <h3>Let's create something cool together! Also let me know if you have any questions. </h3>
+
+            <div id="contact-info" class=flex-container>
+                
+                <div class="logo-container">
+                    <img class="contact-logo" alt="Phone" src="phone.png">
+                </div>
+                <div class="info-container">
+                    <p>+358 44 522 7762</p>
+                </div>
+
+                <div class="logo-container">
+                    <img class="contact-logo" alt="Email" src="email.png">
+                </div>
+                <div class="info-container">
+                    <p>markus.laine@aalto.fi</p>
+                </div>
+                <div class="logo-container">
+                    <img class="contact-logo" alt="LinkedIn" src="linkedin.png">
+                </div>
+                <div class="info-container">
+                    <p><a class="link" href="https://www.linkedin.com/in/laine-markus/">linkedin.com/in/laine-markus</a></p>
+                </div>
+            </div>
+            <button id="cv-button">Download CV</button>
+        </section>
+
+        <footer>     
+            <p> (c) Markus Laine 2021 </p>          
+        </footer>
+
+    </body>
+
+</html>
+
+
